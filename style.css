@@ -1,0 +1,513 @@
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  min-width: 1000px;
+  height: 2100px;
+display: flex;
+
+align-items: center;
+flex-direction: column;
+background-color: #333333;
+
+}
+
+.wrapper{
+  margin-top:50px;
+  margin-bottom: 50px;
+  background-color: #ffffff;
+  width: 1200px;
+  height: 2989px;
+  border-radius: 25px;
+
+}
+.num1{
+
+	margin-top:20px;
+	margin-right: 10px; 
+}
+.num2{
+	margin-bottom:117px;
+	margin-right: 10px; 
+}
+.num3{
+	margin-bottom:100px;
+	margin-right: 10px; 
+}
+.num4{
+	margin-bottom:110px;
+	margin-right: 10px; 
+}
+.num5{
+	margin-bottom:80px;
+	margin-right: 10px; 
+}
+.num6{
+	margin-bottom:30px;
+	margin-right: 10px; 
+}
+.num7{
+	margin-bottom:10px;
+	margin-right: 10px; 
+}
+button{
+	border-radius: 5px 5px 5px 5px;
+	background-color: #f2994A ;
+	text-align: center;
+	width:25px;
+	height:25px;
+	color:#fff;
+	outline:none;
+	border:none;
+	font-weight: bold;
+}
+#spoon button{
+  
+  width: 40px;
+  height: 40px;
+  background-image:url("images/cutlery.svg");
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  background-position: center;
+  
+}
+footer{
+  text-align: center;
+  margin: 50px;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 768px){
+.textheading {
+  margin-top: 100px;
+  width: 587px;
+  height: 64px;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height:64px;
+  color:#000000;
+}
+
+
+.textheading2 {
+  margin-top: 10px;
+  width: 592px;
+  height: 51px;
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 14px;
+  line-height:17px;
+  color:#4f4f4f;
+}
+
+.sourceref{
+  margin-top: 30px;
+  width: 500px;
+  height: 24px;
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 16px;
+  line-height:158%;
+  color:#BDBDBD;
+}
+
+header{
+width: 969px;
+margin-left:120px;
+}
+.imageimg{
+  width:100%;
+  height: 470px;
+  margin-top: 20px;
+  background-image: url("images/photo1.png");
+  background-repeat: no-repeat;
+  background-size: 969px 470px;
+  border-radius: 12px;
+}
+img{
+
+  margin-top: 20px;
+width: 969px;
+height: 470px;
+border-radius: 12px;
+}
+h3{
+
+    width: 128px;
+    height: 32px;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height:32px;
+    color:#333333;
+
+}
+.container >p{
+
+    width: 543px;
+    height: 75px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height:25px;
+    color:#333333;
+
+}
+.graham{
+
+    width: 177px;
+    height: 24px;
+    font-family: Playfair Display;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height:24px;
+    color:#333333;
+
+}
+.cheesecake{
+
+    width: 287px;
+    height: 48px;
+    font-family: Playfair Display;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height:24px;
+    color:#333333;
+
+}
+
+.wrapper{
+    margin: 50px;
+  background-color: #ffffff;
+  width: 1200px;
+  height: 2989px;
+  border-radius: 25px;
+
+}
+.container{
+  width: 1000px;
+/*  display: flex;*/
+  margin-left:120px;
+}
+.Ingredients{
+  width: 600px;
+}
+ .side{
+ 	float:right;
+  
+  background-color: #ffffff;
+width: 216px;
+height: 367px;
+box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 12px;
+
+/*line-height:14px;*/
+}
+.clocktop{
+  display: flex;
+  flex-direction: column;
+  width:140px;
+  padding-right:%;
+  margin-top: 20px;
+}
+
+.clock{
+  width:125px;
+  padding-right:20%;
+  margin-top: 20px;
+}
+.clock2{
+  width:125px;
+  padding-right:10%;
+  margin-top: 20px;
+}
+.clock3{
+  width:125px;
+  padding-right:12%;
+  margin-top: 20px;
+}
+
+
+#yield{
+  
+  width: 25px;
+height: 12px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 10px;
+line-height:px;
+text-transform: uppercase;
+color: #BDBDBD;
+}
+.float-item{
+	display:flex;
+  margin-top: 20px;
+}
+
+.float-item button{
+  margin-top: 20px;
+  width: 40px;
+  height: 40px;
+  background-image:url("images/clock.JPG") ;
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  background-position: center;
+  
+}
+tr{
+	margin-top: 40px;
+}
+.icontext{
+
+  width: 58px;
+height: 10px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 10px;
+line-height: 12px;
+
+/* Gray 4 */
+
+color: #BDBDBD;
+}
+.timed{
+
+  width: 80px;
+height: 17px;
+font-weight: bold;
+font-style: monospace;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+/* Gray 1 */
+color: #333333;
+}
+
+#serve{
+  width: 100px;
+height: 17px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+/* Orange */
+
+color: #F2994A;
+}
+.far{
+	background-color:grey;
+}
+}
+@media only screen and (max-width: 676px){
+ /* first heading class */
+ 
+.textheading {
+  margin-top: 20px;
+  height: 30px;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height:30px;
+  color:#000000;
+  padding:2%;
+}
+.textheading2 {
+  padding: 2%;
+  margin-top: 10px;
+  height: 51px;
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  line-height:17px;
+  color:#4f4f4f;
+}
+
+ 
+  .imageimg{
+    width:100%;
+    height: 470px;
+    margin-top: 20px;
+    background-image: url("images/photo1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 12px;
+  }
+  .graham{
+    height: 24px;
+    font-family: Playfair Display;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height:24px;
+    color:#333333;
+
+}
+  .float-item{
+    display:block;
+    margin-top: 10px;
+  }
+  .side{
+    display:flex;
+    font-size: 14px;
+  }
+  body{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    height: auto;
+  
+  }
+  .container {
+    height:auto;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height:25px;
+    color:#333333;
+    margin-left:20px;
+
+}
+.clocktop{
+  text-align: center;
+  padding: 6%;
+  width:140px;
+}
+.clock{
+  text-align: center;
+  padding: 3%;
+}
+
+.clock2{
+  text-align: center;
+  padding: 3%;
+}
+
+.clock3{
+  text-align: center;
+  padding: 3%;
+}
+.float-item{
+  text-align: center;
+}
+.float-item button{
+
+  margin-top: 20px;
+  width: 28px;
+  height: 28px;
+  background-image:url("images/clock.JPG") ;
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  background-position: center;
+  
+}
+
+
+#yield{
+  
+  width: 20px;
+height: 12px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 10px;
+line-height:px;
+text-transform: uppercase;
+color: #BDBDBD;
+}
+
+
+.imageimg{
+  width:100%;
+}
+
+.wrapper{
+  overflow: hidden;
+  margin-top:20px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  width: 90%;
+  height: auto;
+  border-radius: 25px;
+
+}
+.container >p{
+
+  width: 200px;
+  height: 36px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height:20px;
+  color:#333333;
+}
+button{
+	width:20px;
+	height:20px;
+}
+#spoon button{
+  
+  width: 28px;
+  height: 28px;
+  background-image:url("images/cutlery.svg");
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  background-position: center;
+  
+}
+.timed{
+
+  width: 80px;
+height: 17px;
+font-weight: bold;
+font-style: monospace;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+/* Gray 1 */
+color: #333333;
+}
+
+#serve{
+  width: 100px;
+height: 17px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+/* Orange */
+
+color: #F2994A;
+}
+
+}
